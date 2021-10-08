@@ -10,3 +10,8 @@
 ## MSFVenom Cheatsheet
 - [https://netsec.ws/?p=331](https://netsec.ws/?p=331)
 
+## Kernel Exploits
+- Windows Kernel Exploits: https://github.com/SecWiki/windows-kernel-exploits
+
+
+
