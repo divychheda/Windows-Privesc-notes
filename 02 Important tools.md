@@ -13,8 +13,14 @@ finds common vulns (powershell script)
 same as sherlock but more updated <br>
 but it comes in .sln file (have to compile and now .NET version)
 
-- windows exploit suggester <br>
-very nice
+- windows exploit suggester (wesng) <br>
+very nice (runs on linux)
+
+- winexe <br>
+run windows commands remotely from linux
+
+- plink.exe <br>
+port forward in windows 
 
 
 
