@@ -1,5 +1,7 @@
 # Windows-Privesc
 
+Course Repo : https://github.com/Gr1mmie/Windows-Priviledge-Escalation-Resources <br>
+
 ## Cheat-sheets for privesc (List of steps to perfrom)
 - [Fuzzy Security Guide](https://www.fuzzysecurity.com/tutorials/16.html)
 - [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
