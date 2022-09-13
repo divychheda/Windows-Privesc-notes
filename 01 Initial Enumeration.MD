@@ -3,13 +3,15 @@
 
 ## a) System Enumeration
 
-## A very basic enum command - systeminfo 
+## A very basic enum command - `systeminfo` 
 - to get basic OS info and system arch / type
+- A lot of wasy to write commands (look online or through cheat sheets)
 
 ## wmic qfe
 - wminc (windows management instrumentation cli)
 - qfe (quick fix enginnering)
 - it basically returns info about latest patches/updates - their type, hottfixID, time of installation etc. 
+- if we know some exploit based on hotfixes etc.
 
 ## wmic logicaldisk 
 - to get names and info of all the drives in the system 
@@ -30,6 +32,9 @@
 - the diff users on the machines (excluding the services like iisapppool)
 - info about a particular user by :- net user <username>
 
+## netlocalgroups 
+- for list of groups
+ 
 ## net localgroup <group-name>
 - to get list of members of that group
 
