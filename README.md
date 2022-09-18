@@ -15,5 +15,8 @@ Course Repo : https://github.com/Gr1mmie/Windows-Priviledge-Escalation-Resources
 ## Kernel Exploits
 - Windows Kernel Exploits: https://github.com/SecWiki/windows-kernel-exploits
 
+## Metasploit `getsystem`
+https://www.cobaltstrike.com/blog/what-happens-when-i-type-getsystem/
+
 
 
