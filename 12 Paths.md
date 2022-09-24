@@ -17,3 +17,9 @@ sc qc <service name>
 sc config <service name> binpath= "net localgroup administrators user /add"
 ```
 - Restart the service might get an error but user will be added.
+
+## Unquoted Service Path
+- Look in PowerUp output for unquoted service path, notice all where the “BINARY_PATH_NAME” field displays a path that is not confined between quotes.
+- If path is `C:\Program Files\Common Files\svc.exe`, windows check first for an exe `C:\Program.exe` then `C:\Program Files\Common.exe` and so on till something existing is found.
+- So we can insert malicious file there.
+- Restart service to get a shell.
