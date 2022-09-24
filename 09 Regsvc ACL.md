@@ -6,6 +6,10 @@ Get-Acl -Path hklm:\System\CurrentControlSet\services\regsvc | fl
 ```
 - If you see -  “NT AUTHORITY\INTERACTIVE” has “FullContol” then we can escalate.
 
+#### Note:
+- The steps below of exploitation, can also be done if some service has exe where we get Full Access. 
+- To find such exe: `PowerUp.ps1`.
+
 ### Exploitation
 - Make a C file with code for rev-shell, adding admin user etc., compile into exe (using mingw).
 - Copy it over to windows machine.
