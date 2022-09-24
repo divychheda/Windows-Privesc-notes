@@ -3,6 +3,7 @@ https://tryhackme.com/room/windowsprivescarena#
 - Files that run automatically.
 - Can be running with elevated privileges, if we have excess to modify we can place reverse shell.
 - To check for all autoruns - `Autoruns64.exe`, inside click on logon tab and see for something fishy.
+- Or you can run `PowerUp.ps1` and it tells about all things exploitable. 
 - On find such an executable check for privileges with: 
 ```
 accesschk64.exe -wvu "C:\Program Files\Autorun Program"
